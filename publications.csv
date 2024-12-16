@@ -1,0 +1,140 @@
+year,doi,title
+2024,10.1093/bib/bbae122,FAIR Header Reference genome: a TRUSTworthy standard
+2023,10.1101/2023.11.29.569306,FAIR Header Reference genome: A TRUSTworthy standard
+2023,10.12688/openreseurope.15364.2,"Community-driven governance of FAIRness assessment: an open issue, an open discussion"
+2023,10.47912/jscdm.130,Leveraging Biolink as a “Rosetta Stone” Between C-Path and EJP-RD Semantic Models Provides Emergent Interoperability
+2022,10.12688/openreseurope.15364.1,"Community-driven governance of FAIRness assessment: an open issue, an open discussion"
+2022,10.1186/s13326-022-00264-6,"Semantic modelling of common data elements for rare disease registries, and a prototype workflow for their deployment over registry data"
+2022,10.1111/pce.14258,Conserved and distinct roles of H3K27me3 demethylases regulating flowering time in Brassica rapa
+2022,10.15497/RDA00068,FAIR Principles for Research Software (FAIR4RS Principles)
+2021,10.17863/CAM.77969,Reuse of design pattern measurements for health data
+2021,10.1101/2021.07.27.21261169,"Semantic modelling of Common Data Elements for Rare Disease registries, and a prototype workflow for their deployment over registry data"
+2021,10.1093/jxb/eraa485,"Endogenous indole-3-acetamide levels contribute to the crosstalk between auxin and abscisic acid, and trigger plant stress responses in Arabidopsis"
+2021,10.5281/zenodo.4541002,RO-Crate Metadata Specification 1.1.1
+2021,10.48550/ARXIV.2101.10883,A Fresh Look at FAIR for Research Software
+2020,10.1101/2020.08.31.275206,Perturbations of theAMI1IAM-amidohydrolase expression trigger plant stress responses inArabidopsis thaliana
+2020,10.1101/2020.04.27.063974,Predicting microbiomes through a deep latent space
+2020,10.12688/f1000research.18236.1,BioHackathon 2015: Semantics of data for life sciences and reproducible research [version 1; peer review: 2 approved]
+2019,10.7287/peerj.preprints.27829,Data-driven classification of the certainty of scholarly assertions
+2019,10.7287/peerj.preprints.27829v2,Data-driven classification of the certainty of scholarly assertions
+2019,10.1093/gigascience/giz147,Genome-wide analysis of the H3K27me3 epigenome and transcriptome in Brassica rapa
+2019,10.1038/s41597-019-0248-6,"Author Correction: Evaluating FAIR maturity through a scalable, automated, community-governed framework"
+2019,10.12688/f1000research.18238.1,BioHackathon series in 2013 and 2014: improvements of semantic interoperability in life science data and services [version 1; peer review: 2 approved with reservations]
+2019,10.1038/s41597-019-0184-5,"Evaluating FAIR maturity through a scalable, automated, community-governed framework"
+2019,10.7287/peerj.preprints.27829v1,Data-driven classification of the certainty of scholarly assertions
+2019,10.1101/649202,"Evaluating FAIR Maturity Through a Scalable, Automated, Community-Governed Framework"
+2019,dx.doi.org/10.17504/protocols.io.x6nfrde,Scholarly Certainty Survey and Analysis
+2019,10.17504/protocols.io.x6nfrde,Scholarly Certainty Survey and Analysis v1
+2019,10.1111/nph.15405,Virulence‐ and signaling‐associated genes display a preference for long 3′UTRs during rice infection and metabolic stress in the rice blast fungus
+2018,10.1038/sdata.2018.271,Genome-wide polyadenylation site mapping datasets in the rice blast fungus Magnaporthe oryzae
+2018,10.1101/418376,"Evaluating FAIR-Compliance Through an Objective, Automated, Community-Governed Framework"
+2018,10.1002/humu.23542,MECP2 variation in Rett syndrome-An overview of current coverage of genetic and phenotype data within existing databases
+2018,10.1038/sdata.2018.118,A design framework and exemplar metrics for FAIRness
+2018,10.7287/peerj.preprints.26657,Automatic definition of robust microbiome sub-states in longitudinal data
+2018,10.7287/peerj.preprints.26657v1,Automatic definition of robust microbiome sub-states in longitudinal data
+2017,10.1101/225490,A design framework and exemplar metrics for FAIRness
+2017,10.5281/ZENODO.1065974,FAIRMetrics/Metrics: Initial set of proposed FAIR Metrics for community discussion
+2017,10.7717/peerj-cs.110,Interoperability and FAIRness through a novel combination of Web technologies
+2017,10.1007/s00705-016-3144-9,Molecular characterization of a novel ssRNA ourmia-like virus from the rice blast fungus Magnaporthe oryzae
+2017,10.3233/isu-170824,"Cloudy, increasingly FAIR; revisiting the FAIR Data guiding principles for the European Open Science Cloud"
+2017,10.7287/peerj.preprints.2522v2,Interoperability and FAIRness through a novel combination of Web technologies
+2017,10.7287/peerj.preprints.2522,Interoperability and FAIRness through a novel combination of Web technologies
+2016,10.7287/peerj.preprints.2522v1,Interoperability and FAIRness through a novel combination of Web technologies
+2016,10.3389/fpls.2016.00641,Publishing FAIR Data: An Exemplar Methodology Utilizing PHI-Base
+2016,10.1101/049510,Temporal microbiome road-maps guided by perturbations
+2016,10.1038/sdata.2016.18,The FAIR Guiding Principles for scientific data management and stewardship
+2015,10.1159/000381265,<b><i>VPS13D</i></b> Gene Variant Is Associated with Altered IL-6 Production and Mortality in Septic Shock
+2015,10.1007/s00216-014-8435-y,Quantitative evaluation of bias in PCR amplification and next-generation sequencing derived from metabarcoding samples.
+2015,10.1007/978-3-319-19776-0_9,Diagnostic Knowledge Extraction from MedlinePlus: An Application for Infectious Diseases
+2015,10.1007/978-3-319-19776-0_9,Diagnostic Knowledge Extraction from MedlinePlus: An Application for Infectious Diseases
+2015,10.1186/s13742-015-0092-3,Enhanced reproducibility of SADI web service workflows with Galaxy and Docker
+2014,10.1371/journal.ppat.1004492,The relationship between host lifespan and pathogen reservoir potential: an analysis in the system Arabidopsis thaliana--cucumber mosaic virus.
+2014,10.1371/journal.ppat.1004492,The Relationship between Host Lifespan and Pathogen Reservoir Potential: an Analysis in the System Arabidopsis thaliana-Cucumber mosaic virus
+2014,10.1007/978-3-662-45231-8,Automatic Annotation of Bioinformatics Workflows with Biomedical Ontologies
+2014,10.1186/1755-8794-7-S1-S12,Automatic detection and resolution of measurement-unit conflicts in aggregated data
+2014,10.1186/1755-8794-7-S1-S12,Automatic detection and resolution of measurement-unit conflicts in aggregated data
+2014,10.1186/2041-1480-5-46,Automatically exposing OpenLifeData via SADI semantic Web Services
+2014,10.1186/2041-1480-5-5,BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains
+2014,10.1186/2041-1480-5-5,BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains
+2014,10.1186/2041-1480-5-5,BioHackathon series in 2011 and 2012: penetration of ontology and linked data in life science domains.
+2014,10.1007/978-3-319-05687-6_15,Bioinformatics Tools for Next-Generation RNA Sequencing Analysis
+2014,10.1007/978-3-319-05687-6_15,Bioinformatics Tools for Next-Generation RNA Sequencing Analysis
+2014,10.1186/2041-1480-5-42,Executing SADI services in Galaxy
+2014,10.1561/1800000019,Health Web Science
+2014,10.1109/CBMS.2014.82,Nanopublishing clinical diagnoses: tracking diagnostic knowledge base content and utilization
+2014,10.1186/2041-1480-5-14,The Semanticscience Integrated Ontology (SIO) for biomedical research and knowledge discovery
+2014,10.1186/2041-1480-5-14,The Semanticscience Integrated Ontology (SIO) for biomedical research and knowledge discovery.
+2013,10.1186/2041-1480-4-2,"OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows"
+2013,10.1186/2041-1480-4-2,"OPPL-Galaxy, a Galaxy tool for enhancing ontology exploitation as part of bioinformatics workflows."
+2013,10.1186/2041-1480-4-6,The 3rd DBCLS BioHackathon: improving life science data integration with semantic Web technologies
+2013,10.1186/2041-1480-4-6,The 3rd DBCLS BioHackathon: improving life science data integration with semantic Web technologies
+2013,10.2196/resprot.2315,The SADI Personal Health Lens: A Web Browser-Based System for Identifying Personally Relevant Drug Interactions
+2013,10.2196/resprot.2315,The SADI Personal Health Lens: A Web Browser-Based System for Identifying Personally Relevant Drug Interactions
+2013,10.2196/jmir.2499,The emergent discipline of health web science
+2013,10.2196/jmir.2499,The emergent discipline of health web science.
+2012,10.1155/2012/367345,Analysis of a Multilevel Diagnosis Decision Support System and Its Implications: A Case Study
+2012,10.1155/2012/367345,Analysis of a Multilevel Diagnosis Decision Support System and Its Implications: A Case Study
+2012,10.1007/978-3-642-34032-1_2,Bioscientific Data Processing and Modeling
+2012,10.1007/978-3-642-34032-1_2,Bioscientific Data Processing and Modeling
+2012,10.1186/2041-1480-3-6,Extending and encoding existing biological terminologies and datasets for use in the reasoned semantic web
+2012,10.1186/2041-1480-3-6,Extending and encoding existing biological terminologies and datasets for use in the reasoned semantic web.
+2012,10.1007/978-1-61779-585-5_20,Genomics data resources: frameworks and standards
+2012,10.1007/978-1-61779-585-5_20,Genomics data resources: frameworks and standards.
+2012,10.1007/978-3-642-34032-1_6,OWL-DL Domain-Models as Abstract Workflows
+2012,10.1007/978-3-642-34032-1_6,OWL-DL Domain-Models as Abstract Workflows
+2012,10.1186/1471-2105-13-S1-S2,SPARQL Assist language-neutral query composer
+2012,10.1186/1471-2105-13-S1-S2,SPARQL Assist language-neutral query composer.
+2011,10.1186/2041-1480-2-4,The 2nd DBCLS BioHackathon: interoperable bioinformatics Web services for integrated applications
+2011,10.1145/2166896.2166925,The SADI plug-in to IO informatics' sentient knowledge explorer
+2011,10.1186/2041-1480-2-8,"The Semantic Automated Discovery and Integration (SADI) Web service Design-Pattern, API and Reference Implementation"
+2011,10.1186/2041-1480-2-8,"The Semantic Automated Discovery and Integration (SADI) Web service Design-Pattern, API and Reference Implementation."
+2010,10.1093/bioinformatics/btq416,OWL2Perl: creating Perl modules from OWL class definitions
+2010,10.1093/bioinformatics/btq416,OWL2Perl: Creating Perl modules from OWL class definitions.
+2010,10.1186/1471-2105-11-S12-S7,"SADI, SHARE, and the in silico scientific method"
+2010,10.1186/1471-2105-11-s12-s7,"SADI, SHARE, and the in silico scientific method"
+2010,10.1007/978-3-642-16558-0_26,Semantically-Guided Workflow Construction in Taverna: The SADI and BioMoby Plug-Ins
+2010,10.1007/978-3-642-16558-0_26,Semantically-Guided Workflow Construction in Taverna: The SADI and BioMoby Plug-Ins
+2010,10.1186/2041-1480-1-8,The DBCLS BioHackathon: standardization and interoperability for bioinformatics web services and workflows.
+2010,10.1007/978-3-642-16558-0\_22,Tools in Scientific Workflow Composition
+2009,10.1007/978-0-387-39940-9_1560,Biological Resource Discovery
+2009,10.1093/bib/bbn051,Moby and Moby 2: Creatures of the Deep (Web)
+2009,10.1093/bib/bbn051,Moby and Moby 2: Creatures of the Deep (Web)
+2009,10.1109/cse.2009.144,Optimization of Distributed SPARQL Queries Using Edmonds' Algorithm and Prim's Algorithm
+2009,10.1109/APSCC.2009.5394148,SADI Semantic Web Services - 'cause you can't always GET what you want!
+2010,10.1109/APSCC.2009.5394148,SADI Semantic Web Services - 'cause you can't always GET what you want!
+2009,10.1007/978-3-642-10871-6_27,SHARE: A Semantic Web Query Engine for Bioinformatics
+2009,10.1186/1471-2105-10-313,Social tagging in the life sciences: characterizing a new metadata resource for bioinformatics
+2009,10.1186/1471-2105-10-313,Social tagging in the life sciences: characterizing a new metadata resource for bioinformatics
+2009,10.1007/978-0-387-39940-9_633,Web Services and the Semantic Web for Life Science Data
+2008,10.1155/2008/369601,The Generation Challenge Programme Platform: Semantic Standards and Workbench for Crop Science
+2008,10.4172/jpb.1000029,DataBiNS-Viz: A Web-Based Tool for Visualization of Non-Synonymous SNP Data
+2008,10.1093/bib/bbn003,Interoperability with Moby 1.0 - Its better than sharing your toothbrush
+2008,10.1093/bib/bbn003,Interoperability with Moby 1.0--it's better than sharing your toothbrush!
+2008,10.1016/j.jbi.2008.02.005,Semi-automatic web service composition for the life sciences using the BioMoby semantic web framework
+2008,10.1016/j.jbi.2008.02.005,Semi-automatic web service composition for the life sciences using the BioMoby semantic web framework
+2007,10.1093/bioinformatics/btl648,DataBiNS: Data Mining Tool for Biological Pathways and Non-Synonymous SNPs
+2007,10.1093/bioinformatics/btl648,DataBiNS: Data Mining Tool for Biological Pathways and Non-Synonymous SNPs.
+2007,10.1145/1242572.1242787,Ontology Engineering Using Volunteer Labor
+2007,10.1145/1242572.1242766,Tag Clouds for Summarizing Web Search Results
+2007,10.1109/BIBM.2007.5,Using a novel data transformation technique to provide the EMBOSS software suite as semantic Web Services
+2007,10.1109/BIBM.2007.5,Using a novel data transformation technique to provide the EMBOSS software suite as Semantic Web Services
+2006,10.1186/1471-2105-7-523,BioMoby extensions to the Taverna workflow management and enactment software
+2006,10.1186/1471-2105-7-523,BioMoby extensions to the Taverna workflow management and enactment software
+2006,10.1186/1751-0473-1-4,Gbrowse Moby: a Web-based browser for BioMoby Services.
+2006,10.1186/1751-0473-1-4,Gbrowse Moby: A Web-based browser for BioMOBY Services
+2006,10.1186/1471-2105-7-534,"IHOPerator: user-scripting a personalized bioinformatics Web, starting with the iHOP website"
+2006,10.1186/1471-2105-7-534,"iHOPerator: User-scripting a personalized bioinformatics Web, starting with the iHOP website"
+2006,10.1093/bib/bbl025,The Life Sciences Semantic Web is full of creeps!
+2006,10.1093/bib/bbl025,The Life Sciences Semantic Web is Full of Creeps!
+2005,10.1104/pp.104.059170,BioMOBY successfully integrates distributed heterogeneous bioinformatics Web services. The PlaNet exemplar case
+2005,10.1104/pp.104.059170,BioMOBY successfully integrates distributed heterogeneous bioinformatics Web Services. The PlaNet exemplar case.
+2004,10.1186/1471-2229-4-3,Comparison of ESTs from juvenile and adult phases of the giant unicellular green alga Acetabularia acetabulum
+2004,10.1007/978-3-540-30475-3_25,"Applying Semantic Web Services to Bioinformatics: Experiences Gained, Lessons Learnt"
+2002,10.1093/bib/3.4.331,BioMOBY: an open source biological web services proposal.
+2002,10.1093/bib/3.4.331,BioMOBY: an open source biological web services proposal.
+2002,10.1093/bioinformatics/18.10.1398,Genquire: genome annotation browser/editor
+2002,10.1101/gr.361602,The bioperl toolkit: Perl modules for the life sciences
+2002,10.1101/gr.361602,The Bioperl Toolkit: Perl Modules for the Life Sciences
+1997,10.​1105/​tpc.​9.​11.​1921,Different Roles of Flowering-Time Genes in the Activation of Floral Initiation Genes in Arabidopsis
+1995,10.​1105/​tpc.​7.​9.​1501,"Parallels between UNUSUAL FLORAL ORGANS and FIMBRIATA, Genes Controlling Flower Development in Arabidopsis and Antirrhinum"
+1995,10.​1105/​tpc.​7.​9.​1485,UNUSUAL FLORAL ORGANS Controls Meristem Identity and Organ Primordia Fate in Arabidopsis

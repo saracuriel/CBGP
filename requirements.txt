@@ -1,1 +1,11 @@
+flask
 gunicorn
+flask-wtf
+flask-sqlalchemy
+flask-migrate
+flask-login
+flask-mail
+flask-cors
+psycopg2-binary
+requests
+python-dotenv

@@ -262,8 +262,8 @@
     <owl:Class rdf:about="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#new-member-questions">
         <rdfs:label xml:lang="en">New member questions</rdfs:label>
         <rdfs:subClassOf rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#questions"/>
-        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#newmember-name">
-        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#newmember-orcid">
+        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#newmember-name"/>
+        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#newmember-orcid"/>
 
     </owl:Class>
     
@@ -274,7 +274,7 @@
     <owl:Class rdf:about="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#new-project-questions">
         <rdfs:label xml:lang="en">New project questions</rdfs:label>
         <rdfs:subClassOf rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#questions"/>
-        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#project-identifier">
+        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#project-identifier"/>
     </owl:Class>
     
 
@@ -284,7 +284,7 @@
     <owl:Class rdf:about="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#new-publication-questions">
         <rdfs:label xml:lang="en">New publication questions</rdfs:label>
         <rdfs:subClassOf rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#questions"/>
-        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#publication-doi">
+        <cbgp-local:has-question rdf:resource="https://w3id.org/CBGP-App/cbgp-application-ontology.owl#publication-doi"/>
     </owl:Class>
     
 

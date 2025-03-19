@@ -1,0 +1,1814 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://w3id.org/CBGP-App"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://w3id.org/CBGP-App">
+    <Prefix name="" IRI="https://w3id.org/CBGP-App#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="local" IRI="urn:local:"/>
+    <Prefix name="cbgp-local" IRI="urn:cbgp-local:"/>
+    <Declaration>
+        <Class IRI="#Articulo-60"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Articulo-83"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSIC-INIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#European"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FREE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Group_Member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NUM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#National"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Principal_Investigator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UPM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UPM-CSIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#add-member"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#add-project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#add-publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#affiliations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#annual_income"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#answers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#authors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cbgp_corresponding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cbgpco_no"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cbgpco_yes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fields"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#forms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#funding-institution-types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#institution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#internal-code-types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#multichoice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#new-member-questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#new-project-questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#new-publication-questions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newmember-name"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newmember-orcid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject13"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newproject9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub11"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub12"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#newpub9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oa_no"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oa_yes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#open_access"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#participant-type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#project-identifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#project-type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ptype1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ptype2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#publication-type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#radio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopus_d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopus_q"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopusd1_yes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopusq1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopusq2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopusq3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopusq4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scopysd1_no"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#so_ack_no"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#so_ack_yes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#so_acknowledged"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#text"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#textfield"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#widget-types"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:has-fields"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Articulo-60"/>
+        <Class IRI="#project-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Articulo-83"/>
+        <Class IRI="#project-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSIC-INIA"/>
+        <Class IRI="#institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#European"/>
+        <Class IRI="#project-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FREE"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Group_Member"/>
+        <Class IRI="#participant-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NUM"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#National"/>
+        <Class IRI="#project-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Principal_Investigator"/>
+        <Class IRI="#participant-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional"/>
+        <Class IRI="#project-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UPM"/>
+        <Class IRI="#institution"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UPM-CSIC"/>
+        <Class IRI="#project-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#add-member"/>
+        <Class IRI="#forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#add-project"/>
+        <Class IRI="#forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#add-publication"/>
+        <Class IRI="#forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#affiliations"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#annual_income"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#authors"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cbgp_corresponding"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cbgpco_no"/>
+        <Class IRI="#cbgp_corresponding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cbgpco_yes"/>
+        <Class IRI="#cbgp_corresponding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#funding-institution-types"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#institution"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#internal-code-types"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#multichoice"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#new-member-questions"/>
+        <Class IRI="#fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#new-project-questions"/>
+        <Class IRI="#fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#new-publication-questions"/>
+        <Class IRI="#fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newmember-name"/>
+        <Class IRI="#new-member-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newmember-orcid"/>
+        <Class IRI="#new-member-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject1"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject10"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject11"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject12"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject13"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject2"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject3"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject4"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject5"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject6"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject7"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject8"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newproject9"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub1"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub10"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub11"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub12"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub2"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub3"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub4"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub5"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub6"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub7"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub8"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#newpub9"/>
+        <Class IRI="#new-publication-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oa_no"/>
+        <Class IRI="#open_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oa_yes"/>
+        <Class IRI="#open_access"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#open_access"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#participant-type"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#project-identifier"/>
+        <Class IRI="#new-project-questions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#project-type"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ptype1"/>
+        <Class IRI="#publication-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ptype2"/>
+        <Class IRI="#publication-type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#publication-type"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#radio"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopus_d"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopus_q"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopusd1_yes"/>
+        <Class IRI="#scopus_d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopusq1"/>
+        <Class IRI="#scopus_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopusq2"/>
+        <Class IRI="#scopus_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopusq3"/>
+        <Class IRI="#scopus_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopusq4"/>
+        <Class IRI="#scopus_q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scopysd1_no"/>
+        <Class IRI="#scopus_d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#so_ack_no"/>
+        <Class IRI="#so_acknowledged"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#so_ack_yes"/>
+        <Class IRI="#so_acknowledged"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#so_acknowledged"/>
+        <Class IRI="#answers"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#text"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#textfield"/>
+        <Class IRI="#widget-types"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Articulo-60</IRI>
+        <Literal xml:lang="es">Articulo-60</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Articulo-60</IRI>
+        <Literal xml:lang="en">article 60</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#Articulo-60</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#Articulo-60</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Articulo-83</IRI>
+        <Literal xml:lang="en">Article 83</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Articulo-83</IRI>
+        <Literal xml:lang="es">Articulo-83</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#Articulo-83</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#Articulo-83</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CSIC-INIA</IRI>
+        <Literal xml:lang="en">CSIC/INIA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CSIC-INIA</IRI>
+        <Literal xml:lang="es">CSIC/INIA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#CSIC-INIA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#European</IRI>
+        <Literal xml:lang="en">European</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#European</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#European</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Group_Member</IRI>
+        <Literal xml:lang="en">Group Member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#Group_Member</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#Group_Member</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#National</IRI>
+        <Literal xml:lang="en">National</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#National</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#National</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Principal_Investigator</IRI>
+        <Literal xml:lang="en">Principal Investigator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#Principal_Investigator</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#Principal_Investigator</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regional</IRI>
+        <Literal xml:lang="en">Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#Regional</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UPM</IRI>
+        <Literal xml:lang="en">UPM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UPM</IRI>
+        <Literal xml:lang="es">UPM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#UPM</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UPM-CSIC</IRI>
+        <Literal xml:lang="en">UPM/CSIC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#UPM-CSIC</IRI>
+        <Literal xml:lang="es">UPM/CSIC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#UPM-CSIC</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#UPM-CSIC</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#add-member</IRI>
+        <Literal>Add/Edit Member</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:has-fields"/>
+        <IRI>#add-member</IRI>
+        <IRI>#new-member-questions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#add-project</IRI>
+        <Literal>Add/Edit Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#add-publication</IRI>
+        <Literal>Add/Edit Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:has-fields"/>
+        <IRI>#add-publication</IRI>
+        <IRI>#new-publication-questions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#answers</IRI>
+        <Literal xml:lang="en">Answers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#authors</IRI>
+        <Literal>used for authors who have a name and an orcid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cbgpco_no</IRI>
+        <Literal>No</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#cbgpco_no</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cbgpco_yes</IRI>
+        <Literal>Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#cbgpco_yes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#fields</IRI>
+        <Literal>Fields</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#forms</IRI>
+        <Literal>Data Entry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#forms</IRI>
+        <Literal xml:lang="en">Forms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#new-member-questions</IRI>
+        <Literal>Member Questions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#new-project-questions</IRI>
+        <Literal>Project Questions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#new-publication-questions</IRI>
+        <Literal>Publication Fields</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newmember-name</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newmember-name</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newmember-orcid</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newmember-orcid</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject1</IRI>
+        <Literal xml:lang="en">Internal Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject1</IRI>
+        <IRI>#internal-code-types</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject1</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject1</IRI>
+        <Literal>internal code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject1</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject1</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject10</IRI>
+        <Literal xml:lang="en">End Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject10</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject10</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject10</IRI>
+        <Literal>end date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject10</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject10</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject10</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject11</IRI>
+        <Literal xml:lang="en">Extended End Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject11</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject11</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject11</IRI>
+        <Literal>extended end date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject11</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject11</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject11</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject12</IRI>
+        <Literal xml:lang="en">Funding Institution</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject13</IRI>
+        <Literal xml:lang="en">PI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject2</IRI>
+        <Literal xml:lang="en">External Code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject2</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject2</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject2</IRI>
+        <Literal>external code</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject2</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject2</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject3</IRI>
+        <Literal xml:lang="en">Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject3</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject3</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject3</IRI>
+        <Literal>title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject3</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject3</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject4</IRI>
+        <Literal xml:lang="en">Project Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject4</IRI>
+        <IRI>#project-type</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject4</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject4</IRI>
+        <Literal>project type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject4</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject4</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject5</IRI>
+        <Literal xml:lang="en">Total Funding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject5</IRI>
+        <IRI>#NUM</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject5</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject5</IRI>
+        <Literal>total funding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject5</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject5</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject6</IRI>
+        <Literal xml:lang="en">Overheads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject6</IRI>
+        <IRI>#NUM</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject6</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject6</IRI>
+        <Literal>overheads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject6</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject6</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject7</IRI>
+        <Literal>CBGP Overheads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject7</IRI>
+        <IRI>#NUM</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject7</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject7</IRI>
+        <Literal>cbgp overheads</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject7</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject7</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject8</IRI>
+        <Literal xml:lang="en">Annual Income</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject8</IRI>
+        <Literal>CBGP::Project::Annual Income</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject8</IRI>
+        <Literal>annual income</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject8</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject8</IRI>
+        <IRI>#annual_income</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newproject9</IRI>
+        <Literal xml:lang="en">Start Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newproject9</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newproject9</IRI>
+        <Literal>CBGP::Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newproject9</IRI>
+        <Literal>start date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newproject9</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newproject9</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newproject9</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub1</IRI>
+        <Literal>Affiliations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub1</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub1</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub1</IRI>
+        <Literal>affiliations</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub1</IRI>
+        <Literal>multi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub1</IRI>
+        <IRI>#affiliations</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub10</IRI>
+        <Literal>Scopus Quartile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub10</IRI>
+        <IRI>#scopus_q</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub10</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub10</IRI>
+        <Literal>scopusq</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub10</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">10</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub10</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub10</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub11</IRI>
+        <Literal>Scopus Decile 1?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub11</IRI>
+        <IRI>#scopus_d</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub11</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub11</IRI>
+        <Literal>scopusd1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub11</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">11</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub11</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub11</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub12</IRI>
+        <Literal>SO Acknowledged?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub12</IRI>
+        <IRI>#so_acknowledged</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub12</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub12</IRI>
+        <Literal>sochoa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub12</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub12</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub12</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub2</IRI>
+        <Literal>Authors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub2</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub2</IRI>
+        <Literal>CBGP::Publication::Author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub2</IRI>
+        <Literal>authors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub2</IRI>
+        <Literal>multi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub2</IRI>
+        <IRI>#authors</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub3</IRI>
+        <Literal>Date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub3</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub3</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub3</IRI>
+        <Literal>date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub3</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub3</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub4</IRI>
+        <Literal>DOI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub4</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub4</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub4</IRI>
+        <Literal>doi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub4</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub4</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub5</IRI>
+        <Literal>Title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub5</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub5</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub5</IRI>
+        <Literal>title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub5</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub5</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub6</IRI>
+        <Literal>Journal Name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub6</IRI>
+        <IRI>#FREE</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub6</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub6</IRI>
+        <Literal>journal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub6</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub6</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub7</IRI>
+        <Literal>CBGP Corresponding Author?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub7</IRI>
+        <IRI>#cbgp_corresponding</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub7</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub7</IRI>
+        <Literal>cbgp_corresponding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub7</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub7</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub8</IRI>
+        <Literal>Publication Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub8</IRI>
+        <IRI>#publication-type</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub8</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub8</IRI>
+        <Literal>pubtype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub8</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub8</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#newpub9</IRI>
+        <Literal>Open Access?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-block"/>
+        <IRI>#newpub9</IRI>
+        <IRI>#open_access</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-class"/>
+        <IRI>#newpub9</IRI>
+        <Literal>CBGP::Publication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:object-method"/>
+        <IRI>#newpub9</IRI>
+        <Literal>oa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:question-order"/>
+        <IRI>#newpub9</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-cardinality"/>
+        <IRI>#newpub9</IRI>
+        <Literal>single</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#newpub9</IRI>
+        <IRI>#radio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oa_no</IRI>
+        <Literal>No</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#oa_no</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#oa_yes</IRI>
+        <Literal>Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#oa_yes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:widget-type"/>
+        <IRI>#project-identifier</IRI>
+        <IRI>#text</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ptype1</IRI>
+        <Literal>Article</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#ptype1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ptype2</IRI>
+        <Literal>Book</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#ptype2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopusd1_yes</IRI>
+        <Literal>Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#scopusd1_yes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopusq1</IRI>
+        <Literal>Scopus Q1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#scopusq1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopusq2</IRI>
+        <Literal>Scopus Q2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#scopusq2</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopusq3</IRI>
+        <Literal>Scopus Q3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#scopusq3</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopusq4</IRI>
+        <Literal>Scopus Q4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#scopusq4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scopysd1_no</IRI>
+        <Literal>No</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#scopysd1_no</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#so_ack_no</IRI>
+        <Literal>No</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#so_ack_no</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#so_ack_yes</IRI>
+        <Literal>Yes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="local:answer-order"/>
+        <IRI>#so_ack_yes</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
